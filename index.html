@@ -1,0 +1,367 @@
+<!DOCTYPE >
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="planet-icon-shortcut.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"  rel="stylesheet"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <title>Pedro Felipe | EJECT</title>
+</head>
+<body>  
+
+        <!-- Barra de navegação -->
+        <main id="main">
+        <header id="header" class="header">
+        <section id="navbar" class="navbar">
+            <div class="navbar-container">
+                <img class="navbar-logo" src="planet-icon-navbar.png" alt="Logo">
+                <ul id="navbar-ul">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+                <!-- Barra de navegação - Mobile -->
+                <div id="navbar-mob" class="navbar-mob">
+                    <a class="close-navbar-mob" onclick="closenavbarmob()" style="cursor:pointer"><i class="fas fa-sign-out-alt"></i></a>
+                    <a href="#header">Início</a>
+                    <a href="#habilidades">Habilidades</a>
+                    <a href="#projetos">Projetos</a>
+                    <a href="#contato">Contato</a>
+                    <img class="navbar-mob-bg" src="planet-icon-shortcut.png">
+                    <div class="navbar-mob-icons-footer">
+                    <img class="navbar-mob-icon" src="planet-icon-navbar.png">
+                    </div>
+                </div>
+                      <div class="open-navbar-mob" onclick="opennavbarmob()"><i id="open-navbar-mob" class="fas fa-bars"></i></div>
+                
+                        <script>
+                            function opennavbarmob() {
+                            document.getElementById("navbar-mob").style.width = "250px";
+                            document.getElementById("open-navbar-mob").style.opacity = "0.3";
+                            document.getElementById("open-navbar-mob").style.cursor= "not-allowed";
+                            }
+
+                            function closenavbarmob() {
+                            document.getElementById("navbar-mob").style.width = "0";
+                            document.getElementById("open-navbar-mob").style.opacity= "1";
+                            document.getElementById("open-navbar-mob").style.cursor= "pointer";
+                            }
+                            
+                        </script>
+            </div>
+        </section>
+
+        <!-- Início -->
+        <section id="inicio" class="inicio">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-right">
+                        <h1>Seja bem-vindo!</h1>
+                    </div>
+
+                    <div class="col-md-12 text-right">
+                        <h2>Oi. Me chamo <strong>Pedro Felipe</strong> e você está em meu <strong>portfólio!</strong></h2>
+                    </div>
+
+                    <div class="col-md-12 text-right">
+                        <div class="row">
+                            <div class="col-2 col-sm-2 col-md-4 col-lg-5 horizontal-line-left"></div>
+                            <h3>Front-End & Design Developer</h3>
+                            <div class="col-1 col-sm-1 col-md-1 col-lg-1 horizontal-line-right"></div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+        </section>
+    </header>
+
+        <!-- Sobre -->
+        <section class="sobre">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-area-sobre">
+                            <img class="personal-image-sobre" src="sobre/personal-image.png" title="Pedro Felipe">
+                        <h1>Um pouco sobre mim</h1>
+                        <p><strong>Olá viajante!</strong> Como você já sabe que me chamo Pedro, irei pular esta etapa... Atualmente curso Bacharelado em Ciência e Tecnologia na Universidade Federal do Rio Grande do Norte. Sou apaixonado por desenvolvimento front de aplicações e projetos utilizando JavaScript. Possuo algumas habilidades além de só <strong>programação web</strong>. <br><span style="font-style:italic; color: #65669e"><strong>Clique na seta</strong> e confere ai aqui em baixo!</span></br></p>
+                        <a href="#habilidades"><i class="fas fa-caret-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="habilidades">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1>Habilidades</h1>
+                        <p><strong>Opa, que bom que você clicou!</strong> Então... Desde muito novo sempre gostei de algo que envolvesse beleza visual. Comecei com cursos de edições gráficas utilizando o <strong>Photoshop e Illustrator</strong>. Depois, me surgiu vontade de criar design web, então, aprendi <strong>HTML e CSS.</strong> Atualmente procuro me envolver bastante com as tecnologias que desenvolvem <strong>aplicativos mobile.</strong> Sendo assim, estou encaminhando minha aprendizagem para <strong>React Native</strong> e algumas stacks boas para esse mercado.</p>
+                    </div>  
+                        <div class="habilidade-icons col-11 col-sm-10 col-md-12 col-lg-11 col-xl-10">
+                            <a>
+                                <img src="habilidades/photoshop_slider.png" title="Photoshop"/>
+                            </a>
+                            <a>
+                                <img src="habilidades/illustrator_slider.png" title="Illustrator"/>
+                            </a>
+                            <a>
+                                <img src="habilidades/xd_slider.png" title="Adobe XD"/>
+                            </a>
+                            <a>
+                                <img src="habilidades/html_slider.png" title="HTML5"/>
+                            </a>
+
+                            <a>
+                                <img src="habilidades/css_slider.png" title="CSS3"/>
+                            </a>
+
+                            <a>
+                                <img src="habilidades/javascript_slider.png" title="JavaScript"/>
+                            </a>
+                        </div>
+                </div>
+            </div>    
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="projetos">
+            <div class="projetos_container">
+                <h1>Projetos</h1>
+                <h2>Ao longo dos meus estudos sobre design gráfico e web, desenvolvi vários projetos, alguns para práticar aprendizado e outros para serviços destinados à clientes!</h2>
+                <h3>Quer saber quais foram alguns dos os projetos?</h3>
+
+                <div class="projetos_conteúdo" id="projetos_conteúdo">
+
+                    <div class="projeto_conteúdo_1_opção" id="projeto_conteúdo_1_opção">
+                        <h1 id="projeto_conteúdo_título_1_opção">Riddle</h1>
+                            <div class="projeto_conteúdo_caixadetexto"><i class="fas fa-info-circle"></i>
+                            <span class="projeto_conteúdo_caixadetexto_texto">Desenvolvido para <b>práticas</b> de <b>aprendizagem</b></span>
+                            </div>
+                            <h2>Este projeto consiste numa <b>página web</b> destinada à resolução de <b>enigmas</b> online</h2>
+
+                            <div class="conteúdo_links_1_opção">
+                                <div id="visualizar_conteúdo_esquerda_1_opção" class="conteúdo_link_esquerda" style="display: none;">
+                                    <h2>Ver o código do projeto:</h2>
+                                    <a href="https://github.com/pedroflp/enigma" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                                <div id="visualizar_conteúdo_direita_1_opção" class="conteúdo_link_direita" style="display: none;">
+                                    <h2>Ver o website do projeto:</h2>
+                                    <a href="https://pedroflp.github.io/enigma/" target="_blank" title="Site"><i class="fas fa-globe-americas"></i></a>
+                                </div>
+
+                                <div class="visualizar_projeto_conteúdo_seta"><i onclick="mostrar_conteúdo_opção_1()" class="fas fa-angle-down" id="visualizar_projeto_conteúdo_seta_baixo_1_opção"></i><i onclick="ocultar_conteúdo_opção_1()" class="fas fa-angle-up" id="visualizar_projeto_conteúdo_seta_cima_1_opção" style="display: none; color: #9a9bec;"></i></div>
+                            </div>
+                    </div>
+                
+                    <div class="projeto_conteúdo_2_opção" id="projeto_conteúdo_2_opção">
+                        <h1 id="projeto_conteúdo_título_2_opção">Game Site</h1>
+                            <div class="projeto_conteúdo_caixadetexto"><i class="fas fa-info-circle"></i>
+                            <span class="projeto_conteúdo_caixadetexto_texto">Divulgação prévia<b> permitida pelo cliente!</b></span>
+                            </div>
+                            <h2>Este projeto consiste numa <b>página web</b> destinada à uma <b>comunidade de jogos</b> online</h2>
+
+                            <div class="conteúdo_links_2_opção">
+                                <div id="visualizar_conteúdo_esquerda_2_opção" class="conteúdo_link_esquerda" style="display: none;">
+                                    <h2>Ver o código do projeto:</h2>
+                                    <a href="https://github.com/pedroflp/tablet_wise" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                                <div id="visualizar_conteúdo_direita_2_opção" class="conteúdo_link_direita" style="display: none;">
+                                    <h2>Ver o website do projeto:</h2>
+                                    <a href="https://pedroflp.github.io/tablet_wise" target="_blank" title="Site"><i class="fas fa-globe-americas"></i></a>
+                                </div>
+
+                                <div class="visualizar_projeto_conteúdo_seta"><i onclick="mostrar_conteúdo_opção_2()" class="fas fa-angle-down" id="visualizar_projeto_conteúdo_seta_baixo_2_opção"></i><i onclick="ocultar_conteúdo_opção_2()" class="fas fa-angle-up" id="visualizar_projeto_conteúdo_seta_cima_2_opção" style="display: none; color: #9a9bec;"></i></div>
+                            </div>
+                    </div>
+
+                    <div class="projeto_conteúdo_3_opção" id="projeto_conteúdo_3_opção">
+                        <h1 id="projeto_conteúdo_título_3_opção">Site Pessoal</h1>
+                            <div class="projeto_conteúdo_caixadetexto"><i class="fas fa-info-circle"></i>
+                            <span class="projeto_conteúdo_caixadetexto_texto">Divulgação prévia<b> permitida pelo cliente!</b></span>
+                            </div>
+                            <h2>Este projeto consiste num <b>site</b> destinado à um<b> cliente específico</b></h2>
+
+                            <div class="conteúdo_link_3_opção">
+                                <div id="visualizar_conteúdo_esquerda_3_opção" class="conteúdo_link_centro" style="display: none;">
+                                    <h2>Ver o código do projeto:</h2>
+                                    <a href="https://github.com/pedroflp/luansantos-site" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                                </div>
+                                
+                                <div class="visualizar_projeto_conteúdo_seta"><i onclick="mostrar_conteúdo_opção_3()" class="fas fa-angle-down" id="visualizar_projeto_conteúdo_seta_baixo_3_opção"></i><i onclick="ocultar_conteúdo_opção_3()" class="fas fa-angle-up" id="visualizar_projeto_conteúdo_seta_cima_3_opção" style="display: none; color: #9a9bec;"></i></div>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+
+                        <script>
+
+                        //  FUNÇÃO CONTEÚDO 1
+                        function mostrar_conteúdo_opção_1(){
+                            document.getElementById("projeto_conteúdo_1_opção").style.height="320px"
+                            document.getElementById("visualizar_conteúdo_esquerda_1_opção").style.display="block";
+                            document.getElementById("visualizar_conteúdo_direita_1_opção").style.display="block";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_cima_1_opção").style.display="block";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_baixo_1_opção").style.display="none";
+                            document.getElementById("projeto_conteúdo_título_1_opção").style.color="#9a9bec";
+                            document.getElementById("projeto_conteúdo_1_opção").style.border="1px solid #32ffdd";
+                        }
+
+                        function ocultar_conteúdo_opção_1(){
+                            document.getElementById("projeto_conteúdo_1_opção").style.height="220px";
+                            document.getElementById("visualizar_conteúdo_esquerda_1_opção").style.display="none";
+                            document.getElementById("visualizar_conteúdo_direita_1_opção").style.display="none";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_cima_1_opção").style.display="none";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_baixo_1_opção").style.display="block";
+                            document.getElementById("projeto_conteúdo_título_1_opção").style.color="rgb(5, 5, 5, 0.9)";
+                            document.getElementById("projeto_conteúdo_1_opção").style.border="transparent";
+                        }
+                        //  FUNÇÃO CONTEÚDO 2
+                        function mostrar_conteúdo_opção_2(){
+                            document.getElementById("projeto_conteúdo_2_opção").style.height="320px";
+                            document.getElementById("visualizar_conteúdo_esquerda_2_opção").style.display="block";
+                            document.getElementById("visualizar_conteúdo_direita_2_opção").style.display="block";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_cima_2_opção").style.display="block";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_baixo_2_opção").style.display="none";
+                            document.getElementById("projeto_conteúdo_título_2_opção").style.color="#9a9bec";
+                            document.getElementById("projeto_conteúdo_2_opção").style.border="1px solid #32ffdd";
+                        }
+
+                        function ocultar_conteúdo_opção_2(){
+                            document.getElementById("projeto_conteúdo_2_opção").style.height="220px";
+                            document.getElementById("visualizar_conteúdo_esquerda_2_opção").style.display="none";
+                            document.getElementById("visualizar_conteúdo_direita_2_opção").style.display="none";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_cima_2_opção").style.display="none";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_baixo_2_opção").style.display="block";
+                            document.getElementById("projeto_conteúdo_título_2_opção").style.color="rgb(5, 5, 5, 0.9)";
+                            document.getElementById("projeto_conteúdo_2_opção").style.border="transparent";
+                        }
+                        //  FUNÇÃO CONTEÚDO 3
+                        function mostrar_conteúdo_opção_3(){
+                            document.getElementById("projeto_conteúdo_3_opção").style.height="320px";
+                            document.getElementById("visualizar_conteúdo_esquerda_3_opção").style.display="block";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_cima_3_opção").style.display="block";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_baixo_3_opção").style.display="none";
+                            document.getElementById("projeto_conteúdo_título_3_opção").style.color="#9a9bec";
+                            document.getElementById("projeto_conteúdo_3_opção").style.border="1px solid #32ffdd";
+                        }
+
+                        function ocultar_conteúdo_opção_3(){
+                            document.getElementById("projeto_conteúdo_3_opção").style.height="220px";
+                            document.getElementById("visualizar_conteúdo_esquerda_3_opção").style.display="none";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_cima_3_opção").style.display="none";
+                            document.getElementById("visualizar_projeto_conteúdo_seta_baixo_3_opção").style.display="block";
+                            document.getElementById("projeto_conteúdo_título_3_opção").style.color="rgb(5, 5, 5, 0.9)";
+                            document.getElementById("projeto_conteúdo_3_opção").style.border="transparent";
+                        }
+
+                        </script>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section class="contato" id="contato">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-12 col-lg-12">
+                        <div class="contato-top-message">
+                            <h1>Contato</h1>
+                            <h2>Me contate caso seja necessário via <strong>mensagem direta clicando no botão roxo abaixo.</strong><br>Me siga nas redes sociais!!! </br></h2>
+                            <h4><strong>Obrigado pela visita <strong>viajante.</strong> Nos vemos na próxima!</strong></h4>
+                        </div>
+                        <div class="contato-card" id="contato-card">
+                            <img src="contato/personal-image-sobre.png" alt="Pedro Felipe">
+                            <h1>Pedro Felipe</h1>
+                            <h2>Front-End & Design Developer</h2>
+                            <h3>Acadêmico de Bacharelado em Ciências e Tecnologia - <strong>UFRN</strong></h3>
+                            <div class="contato-location"><i class="fas fa-map-marker-alt"></i><h5>Natal - Brasil</h5></div>
+                                <div class="contato-card-social">
+                                    <a href="https://www.facebook.com/peedro.felipe.31" title="Facebook" target="_blank"><i class="fab fa-facebook-f facebook"></i></a>
+                                    <a href="https://www.instagram.com/_pedroflp" title="Instagram" target="_blank"><i class="fab fa-instagram instagram"></i></a>
+                                    <a href="https://twitter.com/pedroflp" title="Twitter" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+                                    <a href="https://github.com/pedroflp" title="GitHub" target="_blank"><i class="fab fa-github github"></i></a>
+                                    <a href="https://www.linkedin.com/in/pedroflp/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in linkedin"></i></a>
+                                    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5584986215801" title="Whatsapp" target="_blank"><i class="fab fa-whatsapp whatsapp"></i></a>
+                                </div>
+
+                                <button class="contato-direct-message-button" id="contato-direct-message-button" onclick="mostrar_contato_direct_message()">Mensagem <i class="far fa-arrow-alt-circle-right"></i></button>
+
+                                <div class="contato-direct-message" id="contato-direct-message" style="display: none; float: right;">
+                                    <i class="far fa-times-circle" onclick="close_contato_direct_message()"></i>
+                                    <h1>Mensagem direta</h1>
+                                        <form>
+                                            <div class="contato-input">
+                                                <input title="Digite seu nome inteiro" type="text" placeholder="Nome" required minlength="3" maxlength="35"/>
+                                                <input type="email" placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"/> 
+                                            </div> 
+                                                <textarea name="contato-message" id="contato-message" class="contato-message-area" cols="50" rows="9" maxlength="406" placeholder="Mensagem" required></textarea>
+                                                <input class="submit-form-button" type="submit" value="Enviar"/>
+                                        </form>
+                                </div>
+
+                                <script>
+                                    function mostrar_contato_direct_message(){
+                                        document.getElementById("contato-direct-message").style.display= "block";
+                                        document.getElementById("contato-card").style.marginLeft= "-3%";
+                                    }
+
+                                    function close_contato_direct_message(){
+                                        document.getElementById("contato-direct-message").style.display= "none";
+                                        document.getElementById("contato-card").style.marginLeft= "21%";
+                                    }
+
+                                </script>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <section class="footer">
+            <div class="content">
+                <div class="row">
+                    <div class="footer-content col-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="images/eject-icon.png" alt="Eject Logo" title="Eject">
+                        <h1>ProSEmpre - EJECT © 2019.2 <br><strong>Desenvolvido por Pedro Felipe</strong></br>Todos os direitos reservados</h1>
+                        
+                        <div class="footer-navbar row">
+                            <a href="#header">Início</a>
+                            <a href="#habilidades">Habilidades</a>
+                            <a href="#projetos">Projetos</a>
+                            <a href="#contato">Contatos</a>
+                        </div>
+
+                        <div class="footer-social row">
+                            <a href="https://www.facebook.com/peedro.felipe.31" title="Facebook" target="_blank"><i class="fab fa-facebook-f facebook"></i></a>
+                            <a href="https://www.instagram.com/_pedroflp" title="Instagram" target="_blank"><i class="fab fa-instagram instagram"></i></a>
+                            <a href="https://twitter.com/pedroflp" title="Twitter" target="_blank"><i class="fab fa-twitter twitter"></i></a>
+                            <a href="https://github.com/pedroflp" title="GitHub" target="_blank"><i class="fab fa-github github"></i></a>
+                            <a href="https://www.linkedin.com/in/pedroflp/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin-in linkedin"></i></a>
+                            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5584986215801" title="Whatsapp" target="_blank"><i class="fab fa-whatsapp whatsapp"></i></a>
+                        </div>
+
+                        <a href="#header" class="voltar-para-topo-button">Voltar para o topo <i class="fas fa-angle-up"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
