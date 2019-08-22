@@ -15,21 +15,20 @@
 /* Scroll Bar */
 ::-webkit-scrollbar {
     width: 6px;
-  }
-  
-  ::-webkit-scrollbar-track {
+} 
+::-webkit-scrollbar-track {
     box-shadow: inset 0 0 5px rgb(175, 175, 175); 
     border-radius: 10px;
-  }
+}
    
-  ::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background: rgb(96, 67, 173); 
     border-radius: 10px;
-  }
+}
   
-  ::-webkit-scrollbar-thumb:hover {
+::-webkit-scrollbar-thumb:hover {
     background: #7459d3; 
-  }
+}
 
 /* Header */
 .header{
