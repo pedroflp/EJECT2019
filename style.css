@@ -15,21 +15,21 @@
 /* Scroll Bar */
 ::-webkit-scrollbar {
     width: 6px;
-    transition: 0.3s;
-} 
-::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
+  }
+  
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(175, 175, 175); 
     border-radius: 10px;
-}
+  }
    
-::-webkit-scrollbar-thumb {
+  ::-webkit-scrollbar-thumb {
     background: rgb(96, 67, 173); 
     border-radius: 10px;
-}
+  }
   
-::-webkit-scrollbar-thumb:hover {
+  ::-webkit-scrollbar-thumb:hover {
     background: #7459d3; 
-}
+  }
 
 /* Header */
 .header{
@@ -244,9 +244,6 @@
 }
 .habilidade-icons{
     padding: 0;
-    margin: auto;
-    height: 100%;
-    width: 880px;
     margin-bottom: 50px;
 }
 .habilidade-icons img{
@@ -848,8 +845,6 @@
     padding: 20;
 }
 .footer-content{
-    width: 1200px;
-    height: 100%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -1023,7 +1018,7 @@
         transform: translateX(10%);
     }
     .habilidade-icons img{
-        width: 70px;
+        width: 80px;
     }
     .contato-card{
         margin-left: 4%;
@@ -1055,7 +1050,7 @@
         transform: translateY(30px);
     }
     .habilidades{
-        height: 80%;
+        height: 100%;
     }
     .habilidade-icons{
         margin-right: 10px;
@@ -1159,6 +1154,54 @@
     }
 }
 
+@media screen and (max-width: 500px){
+    .personal-image-sobre{
+        display: none;
+    }
+    .horizontal-line-left,.horizontal-line-right{
+        display: none;
+    }
+    .inicio h3{
+        margin-left: 80px;
+    }
+    .habilidades{
+        margin-top: 50px;
+        height: 1050px;
+    }
+    .habilidades h1{
+        margin-top: 20px;
+    }
+    .habilidade-icons{
+        margin-left: 50px;
+        width: 100px;
+    }
+    .projetos_container{
+        margin-left: -35px;
+    }
+    .projetos h2{
+        width: 300px;
+        margin: auto;
+    }
+    .projetos h3{
+        width: 300px;
+        margin: auto;
+    }
+    .contato-top-message{
+        width: 300px;
+        margin: auto;
+        margin-top: 50px;
+    }
+    .contato-card{
+        width: 320px;
+    }
+    .contato-card img{
+        transform: translateX(-15%);
+        margin-top: -50%;
+    }
+    .contato-card-social{
+        margin-left: -5px;
+    }
+}
 
 /* Fade Animation */
 
