@@ -921,6 +921,7 @@
     }
     .habilidade-icons{
         width: 100px;
+        margin-left: 140px;
     }
     .habilidade-icons img{
         width: 95px;
@@ -943,6 +944,9 @@
 }
 
 @media screen and (max-width: 1200px){
+    .habilidade-icons{
+        margin-left: 50px;
+    }
     .contato h4{
         display: none;
     }
@@ -1167,7 +1171,7 @@
     }
     .habilidades{
         margin-top: 50px;
-        height: 1050px;
+        height: 950px;
     }
     .habilidades h1{
         margin-top: 20px;
@@ -1175,13 +1179,7 @@
     .habilidade-icons{
         margin-left: 50px;
         width: 100px;
-    }
-    .projetos_container{
-        margin-left: -35px;
-    }
-    .projetos h2{
-        width: 300px;
-        margin: auto;
+    
     }
     .projetos h3{
         width: 300px;
@@ -1194,6 +1192,7 @@
     }
     .contato-card{
         width: 320px;
+        margin-left: 15%;
     }
     .contato-card img{
         transform: translateX(-15%);
