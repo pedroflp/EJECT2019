@@ -14,10 +14,10 @@
 
 /* Scroll Bar */
 ::-webkit-scrollbar {
-    width: 6px;
+    width: 5px;
 } 
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 5px rgb(175, 175, 175); 
+    box-shadow: inset 0 0 5px rgb(255, 255, 255); 
     border-radius: 10px;
 }
    
