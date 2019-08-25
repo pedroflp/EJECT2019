@@ -755,12 +755,12 @@
 .contato-direct-message h1{
     margin-top: 0px;
 }
-.contato-direct-message .x-close{
+.contato-direct-message i{
     float: right;
     color: rgb(250, 128, 128);
     cursor: pointer;
 }
-.contato-direct-message .x-close+:hover{
+.contato-direct-message i:hover{
     color: rgb(255, 0, 0);
     transform: scale(1.1);
 }
@@ -817,7 +817,6 @@
     color: #00ffaa;
     border: 2px solid #00ffaa;
 }
-
 .contato-message-area::placeholder{
     color: lightgray;
 }
