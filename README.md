@@ -8,3 +8,5 @@ Repositório dedicado ao processo seletivo de 2019.2 da EJECT-UFRN
 |----|---|----------|
 
 Para visualizar o site [Clique aqui!](pedroflp.github.io/EJECT2019/)
+
+[Vizualizar ProSempre 2019.2](https://github.com/pedroflp/EJECT2020/blob/master/README.md)
